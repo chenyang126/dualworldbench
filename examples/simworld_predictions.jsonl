@@ -1,0 +1,3 @@
+{"scene": "typical", "sample_id": "n5-1", "planner_type": "text", "model": "example-model", "sequence": ["START", "P1", "D1", "P2", "D2", "P3", "D3", "P4", "D4", "P5", "D5"]}
+{"scene": "typical", "sample_id": "n5-1", "planner_type": "image", "model": "example-model", "sequence": ["START", "P1", "D1", "P2", "D2", "P3", "D3", "P4", "D4", "P5", "D5"]}
+{"scene": "typical", "sample_id": "n5-1", "planner_type": "meta", "model": "example-model", "sequence": ["START", "P1", "D1", "P2", "D2", "P3", "D3", "P4", "D4", "P5", "D5"]}

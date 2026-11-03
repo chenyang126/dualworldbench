@@ -1,0 +1,4 @@
+# Optional point-cloud and bird's-eye-view generation tools only.
+-r requirements.txt
+numpy>=1.24,<3
+Pillow>=10,<13

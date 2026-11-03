@@ -1,0 +1,5 @@
+{"question_id": "campus/n10-1/y_desc", "answer": "D9 -> P4 -> START -> P3 -> P9"}
+{"question_id": "campus/n10-1/capacity_interleaving_1", "answer": "START -> P6 -> P4 -> D6 -> P7 -> D4 -> D7"}
+{"question_id": "campus/n10-1/anchor_euclidean_choice", "answer": "D4"}
+{"question_id": "campus/n10-1/euclidean_pair_extreme", "answer": "D8 -> D9"}
+{"question_id": "campus/n10-1/wall_illusion_1", "answer": "P6 -> D7 is longer"}

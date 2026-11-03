@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="132" viewBox="0 0 570 132" role="img" aria-labelledby="title desc">
+  <title id="title">DualWorldBench</title>
+  <desc id="desc">Two connected worlds, symbolic and grounded, in blue and orange.</desc>
+  <rect width="570" height="132" rx="20" fill="#ffffff"/>
+  <circle cx="60" cy="63" r="38" fill="#eff5ff" stroke="#4272ca" stroke-width="4"/>
+  <circle cx="109" cy="63" r="38" fill="#fff5ed" stroke="#f27d32" stroke-width="4"/>
+  <g fill="none" stroke="#4272ca" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 46h26M43 59h17M43 72h22"/>
+    <path d="m40 82 7 7 12-13"/>
+  </g>
+  <g fill="none" stroke="#df6b20" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m100 83 20-10-15-20 18-11"/>
+    <circle cx="100" cy="83" r="4" fill="#fff5ed"/>
+    <circle cx="105" cy="53" r="4" fill="#fff5ed"/>
+    <circle cx="123" cy="42" r="4" fill="#fff5ed"/>
+  </g>
+  <rect x="73" y="51" width="22" height="24" rx="8" fill="#ffffff"/>
+  <path d="M77 59h14m-4-4 4 4-4 4M91 68H77m4-4-4 4 4 4" fill="none" stroke="#405269" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="166" y="75" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="-1.7"><tspan fill="#315a9f">Dual</tspan><tspan fill="#d36419">World</tspan><tspan fill="#182334">Bench</tspan></text>
+  <text x="168" y="101" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#6a7688">SYMBOLIC × GROUNDED PLANNING</text>
+</svg>

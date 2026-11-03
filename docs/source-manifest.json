@@ -1,0 +1,368 @@
+{
+  "release_date": "2026-11-03",
+  "source_root": "uni-embodied-benchmark-main",
+  "baseline": "output/dualworldbench-public (existing 2026-10-26 public extraction)",
+  "code_files": [
+    {
+      "release_path": "dualworld/__init__.py",
+      "source_path": null,
+      "release_sha256": "7397dd56cf35c836f7c68a5e79e3a5b77c98d2136ad7e03bb7ef72de17f342d4",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "dualworld/__main__.py",
+      "source_path": null,
+      "release_sha256": "56eb4bd36e6af567a2cb7fe244bf3addd58e05fbc5ebbb7a64e0784c76aeb447",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "dualworld/_paths.py",
+      "source_path": null,
+      "release_sha256": "dba63dbab7ccfbf1c99ce8424030907324571346de3a120fd31e86734cbddddc",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "dualworld/simworld.py",
+      "source_path": null,
+      "release_sha256": "c41f7ae89af1a65169e05a993716ddb78c81369a30a07da6d510888f15ad60d9",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "dualworld/textworld.py",
+      "source_path": null,
+      "release_sha256": "35875169cd051c212eef831b6722c22dbe55667f5421113c93def3b79290dc94",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "dualworld/vqa.py",
+      "source_path": null,
+      "release_sha256": "79c147bf4f04b8dec1e24c38f0bcf520167c3a84d82212d6ac64360e2cd77865",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "model_endpoints.py",
+      "source_path": "model_endpoints.py",
+      "source_sha256": "ae668b1d01158f6c4b4d81998d0b1121caca8baed9a4ec25474daabd86cb08e6",
+      "release_sha256": "3e9217b7c835a1624b15c76b7449d9153026686ac15d1b835ea903bc921cef64",
+      "status": "adapted"
+    },
+    {
+      "release_path": "qa_gt/generate_absolute_axis_sorting_vqa.py",
+      "source_path": "qa_gt/generate_absolute_axis_sorting_vqa.py",
+      "source_sha256": "a46b44283d603b1856d713925f636c2fc13ff2a98b1336f97bb7bf12b2c848c1",
+      "release_sha256": "cfefa9ff1c8ba21a2eec07944fc36fb0345c58aaa24071621b62367d8c82b121",
+      "status": "adapted"
+    },
+    {
+      "release_path": "qa_gt/generate_capacity_interleaving_vqa.py",
+      "source_path": "qa_gt/generate_capacity_interleaving_vqa.py",
+      "source_sha256": "3a8a84d341727597994e96d311d6f08c73e9ea3142e1ab3d9dd4b7c152944b78",
+      "release_sha256": "9e232ca54cc7660ecfd74e1a372ccc1e9b976f4e3a7394949f937b1136c75ccb",
+      "status": "adapted"
+    },
+    {
+      "release_path": "qa_gt/generate_euclidean_distance_vqa.py",
+      "source_path": "qa_gt/generate_euclidean_distance_vqa.py",
+      "source_sha256": "fb758ff482c6c448d7c777b6a990574b910e83352f0bfcc2c96219fe29323688",
+      "release_sha256": "947fb003ff054cbd917ed00650f4a8abde4cf42e27f4d16f9babd877234c7d44",
+      "status": "adapted"
+    },
+    {
+      "release_path": "qa_gt/generate_wall_illusion_vqa.py",
+      "source_path": "qa_gt/generate_wall_illusion_vqa.py",
+      "source_sha256": "8f3951c277e631b3866df7f1760353276be1b74b24c4d26cd03fde1ef2ab7869",
+      "release_sha256": "2c0fbb372234f6a3e4b40c032d4b744e218c9bcfb5268abbdb87b0e98b6d61fd",
+      "status": "adapted"
+    },
+    {
+      "release_path": "qa_gt/run_vqa_api.py",
+      "source_path": "qa_gt/run_vqa_api.py",
+      "source_sha256": "cfc5f73456ed5ccc5556bbe119816f237c6ad3829a12514812513296394d0fa2",
+      "release_sha256": "e5023564a617f6b185f4c9743a3d9e07c7d39c97f292d9fb8b58faaef8f6d47e",
+      "status": "adapted"
+    },
+    {
+      "release_path": "qa_gt/scene_registry.py",
+      "source_path": "qa_gt/scene_registry.py",
+      "source_sha256": "38da5757cb3e682d8c85716e274efd391559206a3cfb5a9048d18ec957f2c26b",
+      "release_sha256": "b5802a21205e65e25c61b304668bed2993883cb633ee885b1e91fc942e58c2ec",
+      "status": "adapted"
+    },
+    {
+      "release_path": "scripts/build_nc_references.py",
+      "source_path": null,
+      "release_sha256": "832862c068853da428ab8aa2a0e450f1ed8070e2de37556446904e6eaff38320",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "scripts/grid.py",
+      "source_path": "tool/iclr_simworld/grid.py",
+      "source_sha256": "128e2c66b05218aae746184177a3b5c6efac74d23fc70b819c8081abae2d1191",
+      "release_sha256": "128e2c66b05218aae746184177a3b5c6efac74d23fc70b819c8081abae2d1191",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "scripts/priority_rule.py",
+      "source_path": "tool/textworld/priority_rule.py",
+      "source_sha256": "0e3b4a1379ff74f0b9c754abde2c4b35a6a72100a2fc5e2aa696975b7898ac4d",
+      "release_sha256": "0e3b4a1379ff74f0b9c754abde2c4b35a6a72100a2fc5e2aa696975b7898ac4d",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "scripts/repo_paths.py",
+      "source_path": "tool/iclr_simworld/repo_paths.py",
+      "source_sha256": "ba32f705c36972faa81752d79053fe123dbe56c3748be03703e829d617284a27",
+      "release_sha256": "68389547394464b98aa7fc69930f897e5b09ccb6737805678bdf1be725a4fc7e",
+      "status": "adapted"
+    },
+    {
+      "release_path": "scripts/run_simworld.py",
+      "source_path": "tool/iclr_simworld/run_full.py",
+      "source_sha256": "6d545bc17db54355256974a97fdc449c6f8a38007f2f3125fff77720b7765cdd",
+      "release_sha256": "117a2e10a05623a702c2f79b8f3486b6f1edf45386ea446cbb5d9ca145f4bae0",
+      "status": "adapted"
+    },
+    {
+      "release_path": "scripts/run_textworld.py",
+      "source_path": null,
+      "release_sha256": "ff1c15761eaa42ed751dbd2ed90312962294da96b959694252baac1d3cae0b51",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "scripts/score_simworld.py",
+      "source_path": null,
+      "release_sha256": "688a26dff4d58c23162083c9b1ffdbce1b9e711eaed3e56918ce3dbf79814488",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "scripts/score_vqa.py",
+      "source_path": null,
+      "release_sha256": "5fa7a58906e8d047f75d9f282b77457e639abd826b852a48432364ba34ffaf4d",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "scripts/validate_data.py",
+      "source_path": null,
+      "release_sha256": "a078dd1496022ad7b9acafd9f87fb75ddfa5af60a60c495039530e4d4b143382",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "simworld/nav_planner/action_utils.py",
+      "source_path": "simworld/nav_planner/action_utils.py",
+      "source_sha256": "08229c1805e611c5d544d381cdd079a715c9ec41807a214826daad0394f46601",
+      "release_sha256": "08229c1805e611c5d544d381cdd079a715c9ec41807a214826daad0394f46601",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/nav_planner/llm_client.py",
+      "source_path": "simworld/nav_planner/llm_client.py",
+      "source_sha256": "bd11a3b6db66b18f672719e0b303e766bdc2c542029c2b24d9475861c763af68",
+      "release_sha256": "ebfe0dc3146ad14590be71fc222aeec8dd62fa8e6cd9c2a85f652f388fc78002",
+      "status": "adapted"
+    },
+    {
+      "release_path": "simworld/nav_planner/node_sequence.py",
+      "source_path": "simworld/nav_planner/node_sequence.py",
+      "source_sha256": "6f0b55684d9c827cd703ac3ee642805c8d460aea4b97bdfb9460af1b8dbeb9dc",
+      "release_sha256": "6f0b55684d9c827cd703ac3ee642805c8d460aea4b97bdfb9460af1b8dbeb9dc",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/nav_planner/planner.py",
+      "source_path": "simworld/nav_planner/planner.py",
+      "source_sha256": "40395da603ace458295e109c63d00e47815c2edfd5027ae3b650e60f0c6ed956",
+      "release_sha256": "40395da603ace458295e109c63d00e47815c2edfd5027ae3b650e60f0c6ed956",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/nav_planner/planner_base.py",
+      "source_path": "simworld/nav_planner/planner_base.py",
+      "source_sha256": "88d47683f2efa85534bb3d1ad9a5a382cdc3d03b7413136ae252ef68b061213c",
+      "release_sha256": "88d47683f2efa85534bb3d1ad9a5a382cdc3d03b7413136ae252ef68b061213c",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/nav_planner/prompt_registry.py",
+      "source_path": "simworld/nav_planner/prompt_registry.py",
+      "source_sha256": "abdff4f150688e628c702034ac5f592da2f2cd3dd53de3195f7993f3cadab166",
+      "release_sha256": "3c690bbda0b148ad0bf6d81d9de38f00573c62e0410bb0d3c6f96135a6b4f163",
+      "status": "adapted"
+    },
+    {
+      "release_path": "simworld/nav_planner/prompt_utils.py",
+      "source_path": "simworld/nav_planner/prompt_utils.py",
+      "source_sha256": "344b5d1bb274c39d4583d9a195ecd245e5696b2fd24777e5305ed7cdee8daf20",
+      "release_sha256": "344b5d1bb274c39d4583d9a195ecd245e5696b2fd24777e5305ed7cdee8daf20",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/nav_planner/run_planner.py",
+      "source_path": "simworld/nav_planner/run_planner.py",
+      "source_sha256": "bcce2a0962ae9e50bea215be26f6ede8cbdf74685d5287fdc000e83b00de807c",
+      "release_sha256": "bcce2a0962ae9e50bea215be26f6ede8cbdf74685d5287fdc000e83b00de807c",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/nav_planner/scene_config.py",
+      "source_path": "simworld/nav_planner/scene_config.py",
+      "source_sha256": "1384641f8b558f4d2bd0676b873ebc098b1e4918eabd0113a5bf4b55c6061a74",
+      "release_sha256": "ca76050a93cf968a1598755fb0bb0415eb567bfe554c86027dfb7c116dc87f00",
+      "status": "adapted"
+    },
+    {
+      "release_path": "simworld/nav_planner/scene_eval.py",
+      "source_path": "simworld/nav_planner/scene_eval.py",
+      "source_sha256": "b893c928dc8b1c967e2c4d198ce5ab30bfed51b3ae2260830b709756bff0bb1d",
+      "release_sha256": "b893c928dc8b1c967e2c4d198ce5ab30bfed51b3ae2260830b709756bff0bb1d",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/tools/compute_far_distance_matrix.py",
+      "source_path": "simworld/tools/compute_far_distance_matrix.py",
+      "source_sha256": "aba2cbd311732f4dced70a2a383983b8cf44f0462cc16a2e82ec08c221881089",
+      "release_sha256": "aba2cbd311732f4dced70a2a383983b8cf44f0462cc16a2e82ec08c221881089",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/tools/compute_sdf_path_distance_matrix.py",
+      "source_path": "simworld/tools/compute_sdf_path_distance_matrix.py",
+      "source_sha256": "faee8dff755bf0c0d5ea52a4bac3ae72a532c7989ca4a0377dfa65e764a29fee",
+      "release_sha256": "faee8dff755bf0c0d5ea52a4bac3ae72a532c7989ca4a0377dfa65e764a29fee",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/tools/convert_task_jsons_to_indoor_format.py",
+      "source_path": "simworld/tools/convert_task_jsons_to_indoor_format.py",
+      "source_sha256": "174320963701a20cf77339abad1d990257a5b775f6900268545eee0c2ca18017",
+      "release_sha256": "243df6ef0532e4bb0a3293d1acf455b9fc7f1ee4f8a649dd366e4fed0a087b35",
+      "status": "adapted"
+    },
+    {
+      "release_path": "simworld/tools/filter_ground_from_ply.py",
+      "source_path": "simworld/tools/filter_ground_from_ply.py",
+      "source_sha256": "49cf90a603a0b2fbda04dda09643a3d476a0e193c24e7b49ea81b46b3bb6ac9b",
+      "release_sha256": "49cf90a603a0b2fbda04dda09643a3d476a0e193c24e7b49ea81b46b3bb6ac9b",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "simworld/tools/generate_clean_bev.py",
+      "source_path": "simworld/tools/generate_clean_bev.py",
+      "source_sha256": "ac027f5d1ffa99adb95bd1ee164afa751552216f48c8d5091b77da0876238d6a",
+      "release_sha256": "87635409c2b6eb59360789f972c36f94870275c39ec35d6a830bf4b80247aeb8",
+      "status": "adapted"
+    },
+    {
+      "release_path": "tests/test_evaluation.py",
+      "source_path": null,
+      "release_sha256": "1c9060f120e124374575feea0b6a8d03d275afc14ca4d51de1abefbcd40e28cd",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "tests/test_public_interfaces.py",
+      "source_path": null,
+      "release_sha256": "a06bf5e1569788332b7139b726183250f3bc4e9e640a8bfd8e1a4fe009ab6a0d",
+      "status": "release_support_or_public_adapter"
+    },
+    {
+      "release_path": "textworld/agent_planner/common.py",
+      "source_path": "textworld/agent_planner/common.py",
+      "source_sha256": "c95397f7f77ac67be5cccd34ce1fb79580e469daaaabf7d14a387f3759eacf2c",
+      "release_sha256": "c95397f7f77ac67be5cccd34ce1fb79580e469daaaabf7d14a387f3759eacf2c",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "textworld/agent_planner/optimal_sky.py",
+      "source_path": "textworld/agent_planner/optimal_sky.py",
+      "source_sha256": "832ac09dbd561112f02d1c92197406e104cac1554076ef24773062e3ba73496d",
+      "release_sha256": "832ac09dbd561112f02d1c92197406e104cac1554076ef24773062e3ba73496d",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "textworld/agent_planner/planner_algo.py",
+      "source_path": "textworld/agent_planner/planner_algo.py",
+      "source_sha256": "798f9cbb2223ed7507eca8a30154d6af0e1aec91451745b46306918abf9f52d4",
+      "release_sha256": "798f9cbb2223ed7507eca8a30154d6af0e1aec91451745b46306918abf9f52d4",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "textworld/agent_planner/planner_dp.py",
+      "source_path": "textworld/agent_planner/planner_dp.py",
+      "source_sha256": "c2c2e7ca23ff5fe881fc3909289b2301740b80726f4181ab1e7af3a572fc1288",
+      "release_sha256": "c2c2e7ca23ff5fe881fc3909289b2301740b80726f4181ab1e7af3a572fc1288",
+      "status": "unchanged"
+    },
+    {
+      "release_path": "textworld/agent_planner/planner_gpt.py",
+      "source_path": "textworld/agent_planner/planner_gpt.py",
+      "source_sha256": "50807acff5e68b64c256a2c845590dc3e2f4c4c3414fcafc6996117764f26930",
+      "release_sha256": "2548fcba2f69de3afb7439074e897adece8ad2d89eebda90d6ce8719fa1554cc",
+      "status": "adapted"
+    },
+    {
+      "release_path": "textworld/agent_planner/simulator.py",
+      "source_path": "textworld/agent_planner/simulator.py",
+      "source_sha256": "7722b0795cb91c157ebfa5fa8bdad151e71e90508ae163cff634119f40927300",
+      "release_sha256": "88796f872c0699832c5868ff85c22ea334a47416464bd2ed3e2be69dd40df3d5",
+      "status": "adapted"
+    },
+    {
+      "release_path": "textworld/task_generation/delivery_generator.py",
+      "source_path": "textworld/task_generation/delivery_generator.py",
+      "source_sha256": "0ca4f3914d7ee775d577b59971cd45df7270377174a6c1a4d22cc83dc9f1f29f",
+      "release_sha256": "0ca4f3914d7ee775d577b59971cd45df7270377174a6c1a4d22cc83dc9f1f29f",
+      "status": "unchanged"
+    }
+  ],
+  "excluded_module_files": [
+    {
+      "source_path": "simworld/nav_planner/benchmark_scene.py",
+      "reason": "Original batch/output-layout or robot publishing utility; public runner replaces experiment orchestration"
+    },
+    {
+      "source_path": "simworld/nav_planner/merge_scene_results_into_model_layout.py",
+      "reason": "Original batch/output-layout or robot publishing utility; public runner replaces experiment orchestration"
+    },
+    {
+      "source_path": "simworld/nav_planner/prompt/prompt_template.json",
+      "reason": "Legacy prompt or generation shell helper; active Python entry point retained"
+    },
+    {
+      "source_path": "simworld/nav_planner/publish_waypoints.py",
+      "reason": "Original batch/output-layout or robot publishing utility; public runner replaces experiment orchestration"
+    },
+    {
+      "source_path": "simworld/nav_planner/run_eval_suite.py",
+      "reason": "Original batch/output-layout or robot publishing utility; public runner replaces experiment orchestration"
+    },
+    {
+      "source_path": "simworld/nav_planner/run_structured_scene_suite.py",
+      "reason": "Original batch/output-layout or robot publishing utility; public runner replaces experiment orchestration"
+    },
+    {
+      "source_path": "textworld/agent_planner/planner_alog_v2.py",
+      "reason": "Alternative planner returns legacy intent action format; active planner_algo.py retained"
+    },
+    {
+      "source_path": "textworld/agent_planner/prompt_template.json",
+      "reason": "Legacy prompt or generation shell helper; active Python entry point retained"
+    },
+    {
+      "source_path": "textworld/task_generation/v1.sh",
+      "reason": "Legacy prompt or generation shell helper; active Python entry point retained"
+    },
+    {
+      "source_path": "textworld/task_generation/v2.sh",
+      "reason": "Legacy prompt or generation shell helper; active Python entry point retained"
+    },
+    {
+      "source_path": "qa_gt/vqa.md",
+      "reason": "Legacy prompt or generation shell helper; active Python entry point retained"
+    }
+  ],
+  "data_sources": {
+    "data/simworld/task": "iclr_data/simworld/task",
+    "data/textworld/task": "iclr_data/textworld/task",
+    "data/vqa/task": "iclr_data/vqa/task",
+    "note": "Public baseline localizes resource paths and preserves its data manifest. Model result archives are excluded."
+  }
+}
